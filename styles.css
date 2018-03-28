@@ -1,0 +1,120 @@
+/* CSS */
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  border: solid 1px black;
+  justify-content: center;
+  border: solid 16px #CECECE;
+  display: flex;
+}
+
+main {
+  /*display: flex;*/
+  
+}
+
+section {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  float:left;
+  height: 100vh;
+}
+
+.intro-box {
+  background-color: #a3e8e5;
+  color: #132423;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 33.333%;
+  width: 66.666%
+}
+
+h1{
+  font-size: 30px;
+  margin: 15px 0px 20px 25px;
+}
+
+p {
+  margin: 0px 0px 0px 30px;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #a3e8e5;
+  border: solid 2px #1e4e7d;
+  color: #132423;
+  font-size: 14px;
+  width: 25%;
+  padding: 10px;
+  margin: 10px 0px 0px 25px;
+}
+
+.box-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #132423;
+  height: 33.333%;
+  width: 33.333%;
+}
+
+a {
+  color: #132423;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  margin: auto;
+}
+
+.icon {
+  display: block;
+  margin: auto;
+  width: 50px;
+}
+
+.icon3 {
+  padding-bottom: 5px;
+}
+
+.icon6 {
+  padding-bottom: 5px;
+}
+
+.icon8 {
+  padding-bottom: 2px;
+}
+
+.medium-gray-box {
+  background-color: #818181;
+}
+
+.dark-gray-box {
+  background-color: #404040;
+}
+
+.hadlebar-box {
+  background-color: 
+}
+
+aside {
+  background-image: url(images/headmus2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*float: left;*/
+  height: 100vh;
+  width 40%;
+}
+
+article {
+
+}
+
+
+
