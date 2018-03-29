@@ -3,6 +3,7 @@
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400; 
   font-size: 16px;
+  color: #182626;
   margin: 0;
 }
 
@@ -10,15 +11,10 @@ body {
   border: solid 1px black;
   justify-content: center;
   border: solid 16px #CECECE;
-  display: flex;
+  /*display: flex;*/
 }
 
 main {
-  /*display: flex;*/
-  
-}
-
-section {
   width: 60%;
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +44,7 @@ p {
 
 button {
   background-color: #a3e8e5;
-  border: solid 2px #1e4e7d;
+  border: solid 2px #6da19f;
   color: #132423;
   font-size: 14px;
   width: 25%;
@@ -59,24 +55,29 @@ button {
 .box-item {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   color: #132423;
   height: 33.333%;
   width: 33.333%;
 }
 
 a {
-  color: #132423;
+  color: #182626;
   text-decoration: none;
   text-align: center;
   font-size: 12px;
   margin: auto;
 }
 
+.svg-icon path {
+  fill: pink;
+}
+
 .icon {
   display: block;
   margin: auto;
   width: 50px;
+  fill: pink;
 }
 
 .icon3 {
@@ -104,17 +105,25 @@ a {
 }
 
 aside {
-  background-image: url(images/headmus2.jpg);
+  background-image: url(images/headmus1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /*float: left;*/
+  float: left;
   height: 100vh;
-  width 40%;
+  width: 40%;
 }
 
-article {
-
+@media screen and (min-width: 900px;) {
+  main { 
+  width: 90%; 
+  }
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    height: 100%;
+  }
+
 
 
 
