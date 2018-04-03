@@ -11,11 +11,11 @@
 <body>
 <main class="container">
   <article class="intro-box">
-    <h1>MUSTACHE STYLES</h1>
+    <h1><img class="menu-icon" src="images/menu.svg" alt="Menu icon logo">MUSTACHE STYLES</h1>
     <p>Varying luxurious mustache styles that accentuate  the upper lips of millions of people all over the world!</p>
     <div class="button-container">
-      <button class="main-about" id="about" aria-label="About">ABOUT</button>
-      <button class="main-styles" id="styles" aria-label="Styles">STYLES</button>
+      <button class="main-top" id="about" aria-label="About">ABOUT</button>
+      <button class="main-top" id="styles" aria-label="Styles">STYLES</button>
     </div>
   </article>
   <article class="medium-gray-box box-item">
@@ -41,6 +41,31 @@
   </article>
 </main>
   <aside class="right-aside">
+    <h1 class="h1-bottom">
+      <img class="menu-icon" src="images/menu.svg" alt="Menu icon logo">MUSTACHE STYLES
+        <ul class="li-container onclick-menu-content">
+          <li class="drop-down main-bottom">ABOUT</li>
+          <li class="drop-down">STYLES</li>
+          <li class="drop-down">CHEVRON</li>
+          <li class="drop-down">FU MANCHU</li>
+          <li class="drop-down">HANDLEBAR</li>
+          <li class="drop-down">ENGLISH</li>
+          <li class="drop-down">WALRUS</li>
+          <li class="drop-down">DALI</li>
+          <li class="drop-down">LAMPSHADE</li>
+        </ul>
+    </h1>
+    <article class="carousel-container">
+      <button class="carousel selected" aria-label="Photo selector button"></button>
+      <button class="carousel" aria-label="Photo selector button"></button>
+      <button class="carousel" aria-label="Photo selector button"></button>
+    </article>
+    <article class="next-back-container">
+      <img src="images/back.svg" class="next-back" alt="Back photo navigation button">
+      <img src="images/next.svg" class="next-back" alt="Back photo navigation button">
+    </article>
   </aside>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
