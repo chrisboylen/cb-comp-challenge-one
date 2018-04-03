@@ -7,5 +7,5 @@ ____
 ![Original Comp](static-comp-challenge-1.jpg)
 
 ## My Version
-![My Version](cb-comp-challenge-one/CB-comp-challenge-1 copy.jpg)
+![My Version](CB-comp-challenge-1 copy.jpg)
 
