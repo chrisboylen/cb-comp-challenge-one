@@ -4,3 +4,7 @@ Number one in a series of challenges to work on building our HTML/CSS muscle. We
 
 ____
 ## Original Comp
+![Original Comp](static-comp-challenge-1.jpg)
+
+## My Version
+![My Version](CB-comp-challenge-1 copy.jpg)
